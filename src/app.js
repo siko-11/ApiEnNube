@@ -11,6 +11,7 @@ import productosRoutes from './routes/productosRoute.js'
 import usuariosRoute from './routes/usuariosRoute.js'
 import pedidosRouter from './routes/pedidos_route.js'
 import detallespedidosRouter from './routes/detallespedidos_route.js'
+import { error, log } from 'console'
 
 
 //definir los modulos de entrada 
@@ -39,7 +40,8 @@ app.use('/api', pedidosRouter)
 app.use('/api', detallespedidosRouter)
 app.use((req, resp, next) => {
     resp.status(400).json({
-        message: 'PAGINA NO ENCONTRADA'
+        
+        message: 'PAGINA NO ENCONTRADA', error: error.message
     })
 })
 export default app;
