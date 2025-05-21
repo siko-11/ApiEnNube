@@ -6,7 +6,7 @@ import {
     putPedido,
     patchPedido,
     deletePedidoById
-} from '../Controladores/pedidosCtrl.js';
+} from '../controladores/pedidosCtrl.js';
 // 
 const router = express();
 

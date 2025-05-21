@@ -7,7 +7,7 @@ import {
     putProducto,
     patchProducto,
     deleteProductoById
-} from "../Controladores/productosCtrl.js";
+} from "../controladores/productosCtrl.js";
 
 const storage =multer.diskStorage({
     destination:(req, file, cb)=>{

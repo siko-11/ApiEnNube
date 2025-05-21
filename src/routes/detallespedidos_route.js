@@ -6,7 +6,7 @@ import {
     putPedidoDetalle,
     patchPedidoDetalle,
     deletePedidoDetalleById
-} from '../Controladores/detallespedidosCtrl.js';
+} from '../controladores/detallespedidosCtrl.js';
 
 const router = express();
 

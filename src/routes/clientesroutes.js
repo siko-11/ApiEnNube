@@ -1,6 +1,12 @@
 import express from "express";
-import { obtenerClientes } from "../Controladores/clientesCtrl.js";
-import { getClientes , getClientesxid, postClientes, putClientes,patchClientes, deleteClientes} from "../Controladores/clientesCtrl.js"; 
+
+import { 
+getClientes , 
+getClientesxid,
+postClientes, 
+putClientes,
+patchClientes, 
+deleteClientes} from "../controladores/clientesCtrl.js"; 
 
 const router = express.Router();
 
