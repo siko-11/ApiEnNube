@@ -41,7 +41,7 @@ app.use('/api', detallespedidosRouter)
 app.use((req, resp, next) => {
     resp.status(400).json({
         
-        message: 'PAGINA NO ENCONTRADA', error: error.message
+        message: 'PAGINA NO ENCONTRADA', 
     })
 })
 export default app;
