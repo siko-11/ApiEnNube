@@ -5,7 +5,7 @@ getClientes,
 getClientesxid, 
 patchClientes, 
 postClientes, 
-putClientes } from "../controladores/clientesCtrl";
+putClientes } from "../controladores/clientesCtrl.js";
 
 const router = express.Router();
 
