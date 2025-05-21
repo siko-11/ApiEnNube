@@ -9,6 +9,7 @@ export const getClientes=async(req,res)=>{
         const [result]=await  commysql.query(' select *from clientes ')
         res.json({cant:result.length, data:result})
     } catch(error){
+        console.log("ERROR EN getClientes:", error);
         return res.status(500).json({message:"error en el servidor"})
     }
 }
