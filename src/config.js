@@ -1,7 +1,7 @@
 import {config} from 'dotenv'
 config()
 
-export const BD_HOST = process.env.BD_HOST || 'localhostmysql.railway.internal'
+export const BD_HOST = process.env.BD_HOST || 'mysql.railway.internal'
 export const BD_DATABASE = process.env.BD_DATABASE || 'railway'
 export const BD_USER = process.env.BD_USER || 'root'
 export const BD_PASSWORD = process.env.BD_PASSWORD || 'gXGfWOWQeVNXhgriiMdgsuYLMnhmUqsA'
